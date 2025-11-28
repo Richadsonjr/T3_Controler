@@ -10,7 +10,7 @@ echo.
 
 REM --- Inicia o servidor backend (API + DB) em uma nova janela ---
 echo [1/3] Iniciando o servidor backend (API)...
-cd server
+cd srv
 START "Backend Server" npm run dev
 cd ..
 
@@ -34,4 +34,5 @@ echo = Deixe as duas janelas pretas (servidores) abertas       =
 echo = para que a aplicacao continue funcionando.              =
 echo =============================================================
 echo.
+
 pause
